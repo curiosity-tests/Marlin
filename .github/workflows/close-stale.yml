@@ -6,8 +6,7 @@
 name: Close Stale Issues
 
 on:
-  schedule:
-  - cron: "22 1 * * *"
+  workflow_dispatch:
 
 jobs:
   stale:

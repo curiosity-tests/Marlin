@@ -6,8 +6,7 @@
 name: Lock Closed Issues
 
 on:
-  schedule:
-    - cron: '0 1/13 * * *'
+  workflow_dispatch:
 
 jobs:
   lock:
